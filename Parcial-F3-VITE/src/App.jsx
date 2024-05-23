@@ -7,8 +7,9 @@ function App() {
   const [data, setData] = useState(null);
   const [error, setError] = useState('');
 
+  
   const handleSubmit = (banda1, banda2) => {
-    if (banda1.trim().length < 3 && banda1.trim().startsWith(' ') || banda2.length < 6){
+    if (banda1.length < 3 || banda1.trim() !== banda1 || banda2.length < 6){
       setError('Por favor chequea que la información sea correcta');
       setData(null);
     } else {

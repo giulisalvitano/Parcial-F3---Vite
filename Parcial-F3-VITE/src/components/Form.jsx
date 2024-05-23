@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-
 const Form = ({ onSubmit }) => {
   const [banda1, setBanda1] = useState('');
   const [banda2, setBanda2] = useState('');

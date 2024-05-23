@@ -1,6 +1,5 @@
 import React from "react";
 
-
 const Card = ({ banda1, banda2 }) => {
   return (
     <div>

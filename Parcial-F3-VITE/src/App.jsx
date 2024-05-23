@@ -1,3 +1,5 @@
+import './App.css';
+
 import Card from "./components/Card";
 import React, { useState} from "react";
 import Form from "./components/Form";
